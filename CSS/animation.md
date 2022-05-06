@@ -144,7 +144,7 @@ transition-property: background;
 
 ### 例5 アニメーションを複数指定したい
 
-複数のプロパティに固有のアニメーションをつけたい場合は、` transition` に2組書く。
+複数のプロパティに固有のアニメーションをつけたい場合は、`transition` に2組書く。
 
 #### CSS ([animation/sample_05/assets/css/style.css](animation/sample_05/assets/css/style.css))
 
