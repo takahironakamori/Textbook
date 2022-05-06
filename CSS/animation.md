@@ -29,7 +29,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 #### HTML 
 
-````
+````html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -43,7 +43,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 </body>
 </html>
 ````
-[animation/sample_01/index.html](animation/sample_01/index.html)
+> [animation/sample_01/index.html](animation/sample_01/index.html)
 
 CSS
 ````
