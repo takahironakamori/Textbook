@@ -27,7 +27,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 これは `.box` だけ適用される状態から `.box:hover` が適用される状態に変わる。
 
-#### HTML (animation/sample_01/）
+#### HTML 
 
 ````
 <!DOCTYPE html>
@@ -43,6 +43,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 </body>
 </html>
 ````
+[animation/sample_01/index.html](animation/sample_01/index.html)
 
 CSS
 ````
