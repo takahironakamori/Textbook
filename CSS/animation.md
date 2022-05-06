@@ -44,8 +44,9 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 </html>
 ````
 
-CSS
-````
+#### CSS ([animation/sample_01/assets/css/style.css](animation/sample_01/assets/css/style.css))
+
+````css
 .box {
   width: 100px;
   height: 100px;
@@ -58,14 +59,13 @@ CSS
 }
 ````
 
-#### アニメーションをつける（1）
+### 例2 アニメーションをつける（1）
 
 `transition-xxx` は動かす前の要素につける。
 
-例（animation/sample_02/）
+#### CSS ([animation/sample_02/assets/css/style.css](animation/sample_02/assets/css/style.css))
 
-CSS
-````
+````css
 .box {
   width: 100px;
   height: 100px;
@@ -82,12 +82,13 @@ CSS
 }
 ````
 
-#### アニメーションをつける（2）
+### 例3 アニメーションをつける（2）
 
 例（animation/sample_03/）
 
-CSS
-````
+#### CSS ([animation/sample_03/assets/css/style.css](animation/sample_03/assets/css/style.css))
+
+````css
 .box {
   width: 100px;
   height: 100px;
@@ -109,23 +110,24 @@ CSS
 
 OKの例
 
-````
+````css
 transition-property: background-color;
 ````
 
 大丈夫だが避けたい例
 
-````
+````css
 transition-property: background;
 ````
 
 
-例（animation/sample_04/）
+### 例4 背景色だけアニメーションをつける
 
 背景はアニメーションするが、幅はアニメーションせずに変わる。
 
-CSS
-````
+#### CSS ([animation/sample_04/assets/css/style.css](animation/sample_04/assets/css/style.css))
+
+````css
 .box {
   width: 100px;
   height: 100px;
@@ -142,12 +144,13 @@ CSS
 }
 ````
 
-例（animation/sample_05/）
+### 例4 アニメーションを複数指定したい
 
 複数のプロパティに固有のアニメーションをつけたい場合は、` transition` に2組書く。
 
-CSS
-````
+#### CSS ([animation/sample_05/assets/css/style.css](animation/sample_05/assets/css/style.css))
+
+````css
 .box {
   width: 100px;
   height: 100px;
@@ -181,10 +184,9 @@ CSS
 
 ### 例
 
-例（animation/sample_01/）
+#### HTML ([animation/sample_06/index.html](animation/sample_0/index.html))
 
-HTML
-````
+````html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -199,8 +201,9 @@ HTML
 </html>
 ````
 
-CSS
-````
+#### CSS ([animation/sample_06/assets/css/style.css](animation/sample_06/assets/css/style.css))
+
+````css
 .box {
   width: 100px;
   height: 100px;
