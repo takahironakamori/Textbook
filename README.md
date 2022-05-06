@@ -7,7 +7,7 @@
 - JavaScript
   - [JavaScriptとは](Javascript/introduction.md)
   - [jQueryとは](Javascript/jQuery.md)
-  - [jQueryの使い方　-セレクタとイベント-](Javascript/jQuery_basic.md)
+  - [jQueryの使い方　-セレクタ、イベント、処理-](Javascript/jQuery_basic.md)
 
 
 

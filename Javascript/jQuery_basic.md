@@ -1,4 +1,4 @@
-# jQueryの使い方　-セレクタとイベント-
+# jQueryの使い方　-セレクタ、イベント、処理-
 
 ## 基本文法
 
@@ -88,8 +88,6 @@ $('.link')
 ````
 
 ほかにもセレクタにはたくさんの記法があるが、それは必要になったときに調べてればいい。
-
-
 
 
 ## イベント
@@ -186,3 +184,75 @@ setTimeout(function(){
 }, 1000);
 ````
 
+
+## 処理
+
+__処理__ は自分で書く場合が多いが、よく使う __処理__ から使えるようになったらいい。
+
+### 処理の例 class をつける
+
+ある要素をクリックした時に `onClick` クラスをつけるという処理は以下のようになる。
+
+
+#### html ([jQuery_basic/sample_01/index.html](jQuery_basic/sample_01/index.html))
+
+````html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery_basic sample_01</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="target-box" class="box"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+````
+
+#### JavaScript ([jQuery_basic/sample_01/assets/js/main.js](jQuery_basic/sample_01/assets/js/main.js))
+````js
+$('#target-box').on('click', function(){
+  $(this).addClass('onClick');
+});
+````
+
+上記のJavaScript内 `$(this)` はイベントの対象（今回の場合は `$('#target-box')`）と考えていい。
+
+`addClass()` は `( )` 内に指定したクラス名を加えるというjQueryが用意したメソッド。 
+
+上記の処理は
+
+「`$(this)` 、すなわちイベントの対象（今回の場合は `$('#target-box')`）」に「`onClick`」 というクラスを加えてなさいという処理になる。
+
+jQueryでは処理でも使えるメソッドが他にもあります。
+
+### jQueryが用意しているメソッド（よく使うもの)
+
+#### 指定したクラスを削除する ... removeClass
+
+````js
+$('#target-box').on('click', function(){
+  $(this).removeClass('onClick');
+});
+````
+
+#### 指定したクラスの有無を調べる ... hasClass
+
+````js
+if($('#target-box').hasClass('onClick')) {
+  $(this).removeClass('onClick');
+}
+````
+
+#### 指定したクラスがなければ加え、ある場合は削除する ... toggleClass
+
+````js
+$('#target-box').on('click', function(){
+  $(this).toggleClass('onClick');
+});
+````

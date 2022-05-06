@@ -1,0 +1,10 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 1.0);
+}
+
+.box.onClick {
+  background:  rgba(200, 200, 200, 1.0);
+  width: 300px;
+}
