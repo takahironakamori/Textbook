@@ -20,15 +20,15 @@
 
 ## jQueryについて調べるとき
 
-- 公式サイト [https://jquery.com/]()
-- 公式ドキュメント [https://api.jquery.com/]
+- 公式サイト [https://jquery.com/](https://jquery.com/)
+- 公式ドキュメント [https://api.jquery.com/](https://api.jquery.com/)
   - 公式情報以外の情報は古い情報があり注意が必要。
 
 ## 使い方
 
 ### 直リンクで読み込む
 
-公式リリース情報 [https://releases.jquery.com/] からリンクを取得する。
+公式リリース情報 [https://releases.jquery.com/](https://releases.jquery.com/) からリンクを取得する。
 
 
 ````
@@ -39,7 +39,7 @@
 
 ### ダウンロードして読み込む
 
- - 公式ダウンロード [https://jquery.com/download/] からjQueryをダウンロードしてFTPサーバへアップロードする。
+ - 公式ダウンロード [https://jquery.com/download/](https://jquery.com/download/) からjQueryをダウンロードしてFTPサーバへアップロードする。
 
 
 ## 設置方法
