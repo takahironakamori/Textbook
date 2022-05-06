@@ -20,7 +20,7 @@
 
 ## jQueryについて調べるとき
 
-- 公式サイト [https://jquery.com/](https://jquery.com/)
+- 公式サイト([https://jquery.com/](https://jquery.com/))
 - 公式ドキュメント [https://api.jquery.com/](https://api.jquery.com/)
   - 公式情報以外の情報は古い情報があり注意が必要。
 
