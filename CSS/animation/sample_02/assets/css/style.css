@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 1.0);
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+}
+
+.box:hover {
+  background:  rgba(200, 200, 200, 1.0);
+  width: 300px;
+}
