@@ -84,8 +84,6 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 ### 例3 アニメーションをつける（2）
 
-例（animation/sample_03/）
-
 #### CSS ([animation/sample_03/assets/css/style.css](animation/sample_03/assets/css/style.css))
 
 ````css
@@ -144,7 +142,7 @@ transition-property: background;
 }
 ````
 
-### 例4 アニメーションを複数指定したい
+### 例5 アニメーションを複数指定したい
 
 複数のプロパティに固有のアニメーションをつけたい場合は、` transition` に2組書く。
 
