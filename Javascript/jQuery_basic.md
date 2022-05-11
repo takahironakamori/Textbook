@@ -194,7 +194,7 @@ __処理__ は自分で書く場合が多いが、よく使う __処理__ から
 ある要素をクリックした時に `onClick` クラスをつけるという処理は以下のようになる。
 
 
-#### html ([jQuery_basic/sample_01/index.html](jQuery_basic/sample_01/index.html))
+#### html ([jQuery_basic/example_01/index.html](jQuery_basic/example_01/index.html))
 
 ````html
 <!DOCTYPE html>
@@ -214,7 +214,7 @@ __処理__ は自分で書く場合が多いが、よく使う __処理__ から
 </html>
 ````
 
-#### JavaScript ([jQuery_basic/sample_01/assets/js/main.js](jQuery_basic/sample_01/assets/js/main.js))
+#### JavaScript ([jQuery_basic/example_01/assets/js/main.js](jQuery_basic/example_01/assets/js/main.js))
 ````js
 $('#target-box').on('click', function(){
   $(this).addClass('onClick');

@@ -27,7 +27,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 これは `.box` だけ適用される状態から `.box:hover` が適用される状態に変わる。
 
-#### HTML ([animation/sample_01/index.html](animation/sample_01/index.html))
+#### HTML ([animation/example_01/index.html](animation/example_01/index.html))
 
 ````html
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 </html>
 ````
 
-#### CSS ([animation/sample_01/assets/css/style.css](animation/sample_01/assets/css/style.css))
+#### CSS ([animation/example_01/assets/css/style.css](animation/example_01/assets/css/style.css))
 
 ````css
 .box {
@@ -63,7 +63,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 `transition-xxx` は動かす前の要素につける。
 
-#### CSS ([animation/sample_02/assets/css/style.css](animation/sample_02/assets/css/style.css))
+#### CSS ([animation/example_02/assets/css/style.css](animation/example_02/assets/css/style.css))
 
 ````css
 .box {
@@ -84,7 +84,7 @@ __スタイルに変化があった場合__ だけアニメーションが実行
 
 ### 例3 アニメーションをつける（2）
 
-#### CSS ([animation/sample_03/assets/css/style.css](animation/sample_03/assets/css/style.css))
+#### CSS ([animation/example_03/assets/css/style.css](animation/example_03/assets/css/style.css))
 
 ````css
 .box {
@@ -123,7 +123,7 @@ transition-property: background;
 
 背景はアニメーションするが、幅はアニメーションせずに変わる。
 
-#### CSS ([animation/sample_04/assets/css/style.css](animation/sample_04/assets/css/style.css))
+#### CSS ([animation/example_04/assets/css/style.css](animation/example_04/assets/css/style.css))
 
 ````css
 .box {
@@ -146,7 +146,7 @@ transition-property: background;
 
 複数のプロパティに固有のアニメーションをつけたい場合は、`transition` に2組書く。
 
-#### CSS ([animation/sample_05/assets/css/style.css](animation/sample_05/assets/css/style.css))
+#### CSS ([animation/example_05/assets/css/style.css](animation/example_05/assets/css/style.css))
 
 ````css
 .box {
@@ -182,7 +182,7 @@ transition-property: background;
 
 ### 例
 
-#### HTML ([animation/sample_06/index.html](animation/sample_0/index.html))
+#### HTML ([animation/example_06/index.html](animation/example_06/index.html))
 
 ````html
 <!DOCTYPE html>
@@ -199,7 +199,7 @@ transition-property: background;
 </html>
 ````
 
-#### CSS ([animation/sample_06/assets/css/style.css](animation/sample_06/assets/css/style.css))
+#### CSS ([animation/example_06/assets/css/style.css](animation/example_06/assets/css/style.css))
 
 ````css
 .box {

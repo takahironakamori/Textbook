@@ -8,7 +8,7 @@
   - [JavaScriptとは](Javascript/introduction.md)
   - [jQueryとは](Javascript/jQuery.md)
   - [jQueryの使い方　-セレクタ、イベント、処理-](Javascript/jQuery_basic.md)
-  - [よく使うアニメーションパターン](Javascript/jQuery_animation_pattern.md)
+  - [使用例](Javascript/jQuery_examples.md)
 
 
 
