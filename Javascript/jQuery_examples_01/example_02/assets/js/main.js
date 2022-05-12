@@ -15,10 +15,7 @@ $('#drawer-open-btn').on('click', function(){
   },10);
   
   $("#drawer-close-btn").addClass('on');
-
-  setTimeout(function(){
-    $("#drawer-close-btn").addClass('show');
-  },10);
+  $("#drawer-close-btn").addClass('show');
 
 });
 

@@ -185,7 +185,7 @@ $('#drawer-close-btn').on('click', function(){
 
 <div id="page-mask" class="mask"></div>
 
-<a id="drawer-open-btn" class="drawer-btn open show" href="#"><img src="assets/images/open.png" alt=""></a>
+<a id="drawer-open-btn" class="drawer-btn open on show" href="#"><img src="assets/images/open.png" alt=""></a>
 
 <a id="drawer-close-btn" class="drawer-btn close" href="#"><img src="assets/images/close.png" alt=""></a>
 
@@ -213,6 +213,12 @@ body {
   background: rgba(255, 255, 255, 1.0);
 }
 
+.page {}
+
+.page__container {}
+
+.main {}
+
 .main__container {
   padding: 32px 96px;
 }
@@ -229,19 +235,25 @@ body {
 
 .drawer-btn.open {
   top: 16px;
-  left: 16px;
+  left: -64px;
+  transition: left 300ms ease;
+}
+
+.drawer-btn.open.on {
+  display: block;
 }
 
 .drawer-btn.open.show {
-  display: block;
+  left: 16px;
 }
 
 .drawer-btn.close {
   top: 16px;
   right: 16px;
+  display: none;
 }
 
-.drawer-btn.close.show {
+.drawer-btn.close.on {
   display: block;
 }
 
@@ -257,12 +269,18 @@ body {
   width: 100%;
   height: 100%;
   display: none;
+  opacity: 0;
   background: rgba(0,0,0,0.8);
+  transition: opacity 300ms ease;
   z-index: 2;
 }
 
-.mask.show {
+.mask.on {
   display: block;
+}
+
+.mask.on.show {
+  opacity: 1.0;
 }
 
 .drawer {
@@ -270,16 +288,24 @@ body {
   width: 240px;
   height: 100%;
   top: 0px;
-  left: 0px;
+  left: -280px;
   display: none;
+  opacity: 0;
   background:rgba(250, 250, 250, 0.95);
   z-index: 10;
   overflow: hidden;
+  transition: left 300ms ease;
 }
 
-.drawer.show {
+.drawer.on {
   display: block;
+  opacity: 1.0;
 }
+
+.drawer.on.show {
+  left: 0;
+}
+
 ````
 
 #### JavaScript ([jQuery_examples_01/example_01/example_02/assets/js/main.js](jQuery_examples_01/example_01/example_02/assets/js/main.js))
@@ -287,15 +313,41 @@ body {
 ````js
 $('#drawer-open-btn').on('click', function(){
   $('#drawer-open-btn').removeClass('show');
-  $("#page-mask").addClass('show');
-  $("#page-drawer").addClass('show');
+  $('#drawer-open-btn').removeClass('on');
+
+  $("#page-mask").addClass('on');
+
+  setTimeout(function(){
+    $("#page-mask").addClass('show');
+  },10);
+  
+  $("#page-drawer").addClass('on');
+
+  setTimeout(function(){
+    $("#page-drawer").addClass('show');
+  },10);
+  
+  $("#drawer-close-btn").addClass('on');
   $("#drawer-close-btn").addClass('show');
+
 });
 
 $('#drawer-close-btn').on('click', function(){
   $('#drawer-close-btn').removeClass('show');
-  $('#page-mask').removeClass('show');
+  $('#drawer-close-btn').removeClass('on');
+
+  $("#page-mask").removeClass('show');
+
+  setTimeout(function(){
+    $("#page-mask").removeClass('on');
+  },300);
+  
   $("#page-drawer").removeClass('show');
+  setTimeout(function(){
+    $("#page-drawer").removeClass('on');
+  },300);
+
+  $('#drawer-open-btn').addClass('on');
   $('#drawer-open-btn').addClass('show');
 });
 ````
