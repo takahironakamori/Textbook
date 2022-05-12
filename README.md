@@ -4,7 +4,7 @@
 
 - CSS
   - [CSSアニメーション](CSS/animation.md)
-  - [opacity:0 と display:none](css/opacity_and_display.md)
+  - [opacity:0 と display:none](CSS/opacity_and_display.md)
 - JavaScript
   - [JavaScriptとは](Javascript/introduction.md)
   - [jQueryとは](Javascript/jQuery.md)
