@@ -1,4 +1,4 @@
-# opacity:0　と　display:none
+# opacity:0とdisplay:none
 
 ## 結論
 
