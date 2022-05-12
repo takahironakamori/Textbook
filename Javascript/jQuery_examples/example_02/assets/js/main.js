@@ -25,6 +25,12 @@ $('#drawer-open-btn').on('click', function(){
 $('#drawer-close-btn').on('click', function(){
   $('#drawer-close-btn').removeClass('show');
   $('#drawer-close-btn').removeClass('on');
+
+  $("#page-mask").removeClass('show');
+
+  setTimeout(function(){
+    $("#page-mask").removeClass('on');
+  },300);
   
   $("#page-drawer").removeClass('show');
   setTimeout(function(){

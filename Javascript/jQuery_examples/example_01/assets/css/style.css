@@ -4,12 +4,6 @@ body {
   background: rgba(255, 255, 255, 1.0);
 }
 
-.page {}
-
-.page__container {}
-
-.main {}
-
 .main__container {
   padding: 32px 96px;
 }

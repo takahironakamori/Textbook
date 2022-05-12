@@ -10,6 +10,8 @@
 灰色と赤の2つの四角が重なっている。
 灰色の四角の中には `リンク` がある。
 
+### サンプル
+
 #### HTML ([opacity_and_display/example_01/index.html](opacity_and_display/example_01/index.html))
 
 ````html
