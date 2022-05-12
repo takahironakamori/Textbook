@@ -17,3 +17,11 @@
 - ドロワーを隠す。
 - ウェブページの内容のところに重なっているマスクを消す。
 - メニューボタンを隠す。
+
+### アニメーション無し
+
+([jQuery_examples/example_01/index.html](jQuery_examples/example_01/index.html))
+
+### アニメーション無し
+
+([jQuery_examples/example_02/index.html](jQuery_examples/example_02/index.html))
