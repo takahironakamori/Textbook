@@ -18,6 +18,8 @@
 
 ## アニメーション無し
 
+`.show` をつけると表示される。
+
 #### HTML ([jQuery_examples_01/example_01/index.html](jQuery_examples_01/example_01/index.html))
 
 ````html
@@ -159,6 +161,8 @@ $('#drawer-close-btn').on('click', function(){
 ````
 
 ### アニメーション付き
+
+`.on` をつけると `display:block` になり、`.show` をつけるとアニメーションが始まる。
 
 #### HTML ([jQuery_examples_01/example_02/index.html](jQuery_examples_01/example_02/index.html))
 
