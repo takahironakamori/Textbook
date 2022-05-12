@@ -84,3 +84,7 @@
 - `display` ... `display:block` ←→ `display:none` の切り替えのみ。アニメーション不可。
 
 - `opacity:1.0` をで少しずつ減らしていき、 `opacity:0.0` になったら `display:none` にするのが理想。
+
+## 4. だんだんあらわれるアニメーション
+
+- `display:none` から `display:block` の切り替えを行った後 `opacity:0.0` を `opacity:1.0` まで少しずつ増やしていくのが理想。
