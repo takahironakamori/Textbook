@@ -108,7 +108,7 @@ $('a[href^="#"]').click(function(){
 - `.aminate()` ... [こちら](https://api.jquery.com/animate/)
 
 
-## ナビゲーションを重なる場合
+## ナビゲーションと重なる場合
 
 - 移動後にナビゲーションが重ならないように調整する。
     - CSS の `padding-top` で調整。
