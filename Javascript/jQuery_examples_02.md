@@ -105,7 +105,7 @@ $('a[href^="#"]').click(function(){
 - `href` ... `a` タグで `href` 属性の値
 - `target` ... 移動先
 - `position` ... 移動先の上の位置
-- `.aminate()` ... [こちら](https://api.jquery.com/animate/)
+- `.aminate()` ... [ドキュメントを確認](https://api.jquery.com/animate/)
 
 
 ## ナビゲーションと重なる場合
