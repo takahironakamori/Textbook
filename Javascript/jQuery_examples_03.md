@@ -2,8 +2,7 @@
 
 ## 手順
 
-- [slick](https://kenwheeler.github.io/slick/) を使う。
-
+ライブラリ [slick](https://kenwheeler.github.io/slick/) を使う。
 
 1. slick をダウンロードする（直リンクしない場合）。
 2. html に `slick.css` と `slick.min.js` を読み込む（※2）。
